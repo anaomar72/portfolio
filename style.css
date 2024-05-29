@@ -1,0 +1,91 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set the background color and text color for the whole page */
+body {
+  background-color: #f1f1f1;
+  color: #333;
+  font-family: Arial, sans-serif;
+}
+
+/* Style the header section */
+.header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+.header h1 {
+  font-size: 24px;
+}
+
+.header ul {
+  list-style-type: none;
+  margin-top: 10px;
+}
+
+.header ul li {
+  display: inline;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+/* Style the hero section */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+}
+
+.child1 {
+  width: 50%;
+}
+
+.child1 h1 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.child1 p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.child1 button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.child2 img {
+  width: 100%;
+  max-width: 400px;
+}
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer i {
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.footer article {
+  font-size: 16px;
+}
+
+
